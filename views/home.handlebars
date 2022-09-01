@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+      <h1 class="titulo">bienvenido</h1>
+      <p class="tituloMensaje">Agregar productos a tu lista !!</p>
+    <div class="formularioContainer">
+        <form onsubmit="return agregarProducto(this)">
+            <input type="text" id="nombre" placeholder="Nombre del producto..." class="input">
+            <input type="text" id="precio" placeholder="Precio del producto..." class="input">
+            <input type="text" id="img" placeholder="Imagen del producto..." class="input">
+            <input type="submit" class="btn">
+        </form>
+    </div>
+    {{{body}}}
+    
+        <div id="productosContenedor"></div>
+
+
+ <h1 class="titulo">Centro de mensajes</h1>
+ <div class="formularioContainer">
+        <form onsubmit="return agregarMensaje(this)">
+            <input type="text" id="nombreMensaje" placeholder="Ingresa tu nombre..." class="input">
+            <input type="text" id="textoMensaje" placeholder="Ingresa tu mensaje..." class="input">
+            <input type="submit" class="btn">
+        </form>
+        </div>
+
+        <div id="chatContenedor"></div>
+</body>
+</html>

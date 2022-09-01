@@ -1,0 +1,116 @@
+
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.titulo { 
+    font-weight: 600;
+    color: #3a188f;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+.tituloMensaje{ 
+    color: #533434;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.formularioContainer{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#productosContenedor { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.productoItem{ 
+    width: 15rem;
+    height: auto;
+    margin: 20px;
+}
+
+.nombreItem{ 
+    color: #1e1e1e;
+    font-weight: 500;
+}
+
+.precioItem{ 
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.mensajeItem { 
+    width: 15rem;
+    height: auto;
+    margin: 12px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+.nombreMensaje{ 
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 1.2rem;
+}
+
+.contenidoMensaje{ 
+    font-weight: 300;
+    color: #23a136;
+    font-size: 1rem;
+}
+
+.fechaMensaje{ 
+    font-weight: 400;
+    color: #424244;
+    font-size: 0.8rem;
+}
+
+#chatContenedor{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.tituloMensaje { 
+    text-align: center;
+}
+
+.btn{ 
+    background-color: #481cb5;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.input{ 
+    width: 15rem;
+    padding: 5px;
+    margin: 0px 10px;
+}
